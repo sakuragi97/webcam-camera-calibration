@@ -98,17 +98,10 @@ python scripts/measure.py data/webcam/apps_1920x1080/<photo>.png --calib calibra
 
 The notebooks run end to end on the synthetic data. The webcam sections need your own captures in `data/webcam/` (mine are not published because they show my face).
 
-## Limitations and next steps
-
-- **One mode only.** The calibration is valid for 1920×1080 with fixed focus and no automatic framing. Other modes need a K transfer (notebook 4) or a new calibration.
-- **Planar objects only.** Objects must lie on the board plane, or at a known height above it.
-- **The whole board must be visible** in every measurement photo. A ChArUco board would allow partly visible targets.
-- **Possible next steps:**
-  - uncertainty estimates for K (standard deviations from `calibrateCameraExtended`)
-  - automatic detection of object edges instead of clicking
-  - measuring on several planes
-  - a C++ version of the measuring tool
-
 ## Tech stack
 
 Python · OpenCV · NumPy · pandas · Matplotlib · pytest · Jupyter
+
+## Author
+
+**Yasser EL BACHIRI** · [yasser.elbachiri@gmail.com](mailto:yasser.elbachiri@gmail.com)
