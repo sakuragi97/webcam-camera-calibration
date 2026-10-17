@@ -1,0 +1,15 @@
+# data: webcam captures contain personal images; synthetic data is regenerated
+data/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

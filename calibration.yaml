@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1249.7849602467377, 0., 925.83763952385971, 0.,
+       1249.0466371298835, 555.93067339007632, 0., 0., 1. ]
+dist_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.055913479170572065, -0.22397741750942179,
+       -2.1890280446954822e-05, 0.00013477905126677147,
+       0.18119291447403155 ]
+image_width: 1920
+image_height: 1080
+rms_px: 0.26759220835468672
+date: "2026-10-17T22:37:55"
+camera: "laptop webcam, index 0"
+board: "9x6 checkerboard on phone screen"
+square_mm: 8.2400000000000002
+n_views: 27
