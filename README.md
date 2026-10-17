@@ -104,4 +104,4 @@ Python · OpenCV · NumPy · pandas · Matplotlib · pytest · Jupyter
 
 ## Author
 
-**Yasser EL BACHIRI** · [yasser.elbachiri@gmail.com](mailto:yasser.elbachiri@gmail.com)
+**Yasser EL BACHIRI** · [yasser.elbachiri@gmail.com](mailto:yasser.elbachiri@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yasser-elbachiri/)
